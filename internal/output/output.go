@@ -12,7 +12,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/iasonS/cwq/internal/query"
+	"github.com/iasonS/cloudwatch-logs-query/internal/query"
 )
 
 // Format is how rows are printed.

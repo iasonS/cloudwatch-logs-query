@@ -17,9 +17,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs"
 	"github.com/spf13/pflag"
 
-	"github.com/iasonS/cwq/internal/output"
-	"github.com/iasonS/cwq/internal/query"
-	"github.com/iasonS/cwq/internal/window"
+	"github.com/iasonS/cloudwatch-logs-query/internal/output"
+	"github.com/iasonS/cloudwatch-logs-query/internal/query"
+	"github.com/iasonS/cloudwatch-logs-query/internal/window"
 )
 
 const usageHeader = `cwq runs one CloudWatch Logs Insights query and prints the result.

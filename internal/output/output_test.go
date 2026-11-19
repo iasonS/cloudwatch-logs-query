@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/iasonS/cwq/internal/query"
+	"github.com/iasonS/cloudwatch-logs-query/internal/query"
 )
 
 func row(nameValues ...string) []query.Field {

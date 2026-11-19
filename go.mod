@@ -1,4 +1,4 @@
-module github.com/iasonS/cwq
+module github.com/iasonS/cloudwatch-logs-query
 
 go 1.26.0
 
